@@ -28,7 +28,8 @@ While inspecting the tone digits and how they work, we came across this importan
 *then created a loop with the number of digits that we got, and we extract each digit alone and start to process it alone. Then when we have all the digits we put them in an array and print it. Below is snapshot of the code explaining the logic applied to each digit.
 First we get the analysis frequencies Fm for the digit using the equation F_m= m * Fs/N
 
-![image](https://user-images.githubusercontent.com/75078872/120474273-4be2aa00-c3a8-11eb-8340-cbbc175d63c0.png)
+![image](https://user-images.githubusercontent.com/75078872/120475098-3d48c280-c3a9-11eb-812a-3db09b3f2fb0.png)
+
 
 * What we do next is that we get the magnitude of the FFT, which take each digit as an input as shown in the below snapshot. This snapshot is of the first digit in “#_0123456789#.wav”. 
 As we can see here there are two spikes that we interested in the High frequency one and the low frequency one according to Fig2. ALL the screenshots from the “#” digit as an example
